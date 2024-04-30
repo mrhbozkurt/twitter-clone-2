@@ -26,4 +26,4 @@ const Input: React.FC<InputProps> = ({
     );
 }
 
-export deufalt Input;
+export default Input;
