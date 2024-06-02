@@ -22,6 +22,10 @@ const UserHero: React.FC<UserHeroProps> = ({ userId }) => {
                         style={{ objectFit: 'cover' }}
                     />
                 )}
+                
+                <div className=" absolute -bottom-16 left-4">
+                    <Avatar userId={userId} isLarge hasBorder />
+                </div>
             </div>
         </div>
     );
